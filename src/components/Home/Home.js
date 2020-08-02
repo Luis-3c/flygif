@@ -6,7 +6,7 @@ import ListOfGifs from '../ListOfGifs/ListOfGifs';
 const Home = () => {
     const [keyword, setKeyword] = useState('');
     const [, setLocation] = useLocation();
-    const gifs = useGifs('')
+    const gifs = useGifs('spngebob')
     
     function handleChange(e){
         setKeyword(e.target.value)
