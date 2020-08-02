@@ -1,0 +1,27 @@
+:root {
+    --results-columns: 2;
+}
+
+.listOfGifs {
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gif-cont {
+    padding: 1px;
+}
+
+@media (min-width: 900px) {
+    .gif-cont {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .gif-cont {
+        width: 25%;
+    }
+}
+
